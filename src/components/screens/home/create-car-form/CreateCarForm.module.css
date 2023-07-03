@@ -1,0 +1,24 @@
+.form{
+    margin: 10px auto 20px;
+}
+.form input{
+    display: block;
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+form input:focus {
+    border-color: blue;
+}
+.creator{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
